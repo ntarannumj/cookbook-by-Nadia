@@ -130,11 +130,11 @@ function selectBtn(click) {
                 if (click === categoryBtn) {
                     let harf = "c";
 
-                    window.open(`category.html? btn=${clickBtn}&harfi=${harf}`);
+                    window.open(`category.html? btn=${clickBtn}&harfi=${harf}`,`_self`);
                 } else {
                     let harf = "a";
 
-                    window.open(`category.html? btn=${clickBtn}&harfi=${harf}`);
+                    window.open(`category.html? btn=${clickBtn}&harfi=${harf}`,`_self`);
                 }
 
 
